@@ -1,0 +1,94 @@
+<MyHut>
+    <Definicoes>
+        <Calendario>
+            <Semana>
+                <DiaSemana id = "Monday">Segunda</DiaSemana>
+                <DiaSemana id = "Tuesday">Terca</DiaSemana>
+                <DiaSemana id = "Wednesday">Quarta</DiaSemana>
+                <DiaSemana id = "Thursday">Quinta</DiaSemana>
+                <DiaSemana id = "Friday">Sexta</DiaSemana>
+                <DiaSemana id = "Saturday">Sabado</DiaSemana>
+                <DiaSemana id = "Sunday">Domingo</DiaSemana>
+            </Semana>
+            <Meses>
+                <Mes id = "1">Janeiro</Mes>
+                <Mes id = "2">Fevereiro</Mes>
+                <Mes id = "3">Marco</Mes>
+                <Mes id = "4">Abril</Mes>
+                <Mes id = "5">Maio</Mes>
+                <Mes id = "6">Junho</Mes>
+                <Mes id = "7">Julho</Mes>
+                <Mes id = "8">Agosto</Mes>
+                <Mes id = "9">Setembro</Mes>
+                <Mes id = "10">Outubro</Mes>
+                <Mes id = "11">Novembro</Mes>
+                <Mes id = "12">Dezembro</Mes>
+            </Meses>
+        </Calendario>
+        <SmtpCredenciais>
+            <SmtpAddress>smtp.mail.yahoo.com</SmtpAddress>
+            <PortNumber>587</PortNumber>
+            <EnableSSL>true</EnableSSL>
+            <Email>rafaelaka@yahoo.com</Email>
+            <Password>kufahl!yahoo</Password>
+        </SmtpCredenciais>
+    </Definicoes>
+    <Credenciais>
+        <Atleta>SAzinhal</Atleta>
+        <Email>sazinhal@hotmail.com</Email>
+        <Password>1234</Password>
+    </Credenciais>
+    <MapaAulas>
+        <!--Registar as aulas por ordem cronologica no dia de semana -->    
+        <DiaSemana id = "Monday" clube = "Sintra">
+            <Aula>
+                <Hora>19:30</Hora>
+                <Nome>LESMILLS BODYPUMP</Nome>
+                <Estudio>2</Estudio>
+                <Duracao>30 min.</Duracao>
+            </Aula>
+            <Aula>
+                <Hora>20:05</Hora>
+                <Nome>3B</Nome>
+                <Estudio>2</Estudio>
+                <Duracao>30 min.</Duracao>
+            </Aula>
+        </DiaSemana>
+        <DiaSemana id = "Tuesday" clube = "Sintra">
+            <Aula>
+                <Hora>08:05</Hora>
+                <Nome>LESMILLS BODYPUMP</Nome>
+                <Estudio>2</Estudio>
+                <Duracao>30 min.</Duracao>
+            </Aula>
+            <Aula inativo="true"> 
+                <Hora>19:15</Hora>
+                <Nome>LESMILLS BODYATTACK</Nome>
+                <Estudio>2</Estudio>
+                <Duracao>45 min.</Duracao>
+            </Aula>
+        </DiaSemana>
+        <DiaSemana id = "Saturday" clube = "Sintra">
+            <Aula>
+                <Hora>11:00</Hora>
+                <Nome>LESMILLS BODYPUMP</Nome>
+                <Estudio>2</Estudio>
+                <Duracao>60 min.</Duracao>
+            </Aula>
+        </DiaSemana>
+        <DiaSemana id = "Sunday" clube = "Sintra">
+            <Aula>
+                <Hora>11:00</Hora>
+                <Nome>YOGA MOVES</Nome>
+                <Estudio>2</Estudio>
+                <Duracao>60 min.</Duracao>
+            </Aula>
+            <Aula inativo = "true">
+                <Hora>12:15</Hora>
+                <Nome>LESMILLS BODYPUMP</Nome>
+                <Estudio>2</Estudio>
+                <Duracao>60 min.</Duracao>
+            </Aula>
+        </DiaSemana>
+    </MapaAulas>
+</MyHut>
